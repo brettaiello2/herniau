@@ -1,0 +1,393 @@
+html :where(.wp-block) {
+    margin-bottom: 28px;
+    margin-top: 28px;
+    max-width: 95% !important;
+    overflow-x: hidden;
+}
+
+.acf-field[data-name="search_doctor_field"],
+.acf-field-691fc13f5ec15 {
+    display: none !important;
+}
+
+#um-admin-restrict-content {
+/*    display: none;*/
+}
+
+.sfwd-courses .acf-postbox {
+    display: block !important;
+}
+
+
+.wp-block.page-hero {
+    border: 1px solid #cfcfcf;
+    background: #e9e9e9;
+    border-radius: 10px;
+}
+
+.wp-block.page-hero:before {
+    content: "Hero Area";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3px 10px;
+    font-weight: 800;
+    background: #000;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.wp-block.entry-content {
+    border: 2px solid darkred;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.wp-block.entry-content:before {
+    content: "Main Content";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 10px;
+    padding: 3px 10px;
+    font-weight: 800;
+    background: darkred;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+#adminmenu li.wp-menu-separator {
+    height: 5px;
+    padding: 0;
+    margin: 0 0 6px;
+    cursor: inherit;
+    border-bottom: 1px solid #464646;
+}
+
+
+.content-carousel {
+  margin-bottom: 7em;
+}
+
+.content-carousel .carousel-title {
+    margin-bottom: 15px;
+    max-width: 50%;
+}
+
+.content-carousel .carousel-title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content-carousel .carousel-title a:hover {
+  text-decoration: underline;
+}
+
+.content-carousel .carousel-title .title-icon {
+    filter: invert(1);
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.content-carousel .swiper-horizontal>.swiper-pagination-bullets, .content-carousel .swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 19px;
+    right: 0;
+    left: auto;
+    text-align: right;
+    bottom: auto;
+    max-width: 50%;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background: #40466a;
+    opacity: 1;
+}
+
+.content-carousel .swiper-pagination-bullet-active{
+    background: #fff
+}
+
+.content-carousel.reco {
+    margin-bottom: 0;
+    top: -50px;
+    position: relative;
+}
+
+.content-carousel.reco .swiper {
+  padding-top: 60px;
+}
+
+.content-carousel.reco h2.carousel-title {
+    position: relative;
+    top: 40px;
+    margin-bottom: 0;
+}
+
+.grid-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.grid-posts article {
+    flex: 0 0 calc(25% - 2em);
+    margin-bottom: 2em;
+}
+
+.grid-posts article.type-instructor {
+  flex: 0 0 calc(20% - 2em);
+}
+
+article.content-item .thumb {
+    height: 140px;     
+    width: 100%;         
+    overflow: hidden;
+    position: relative; 
+    margin-bottom: 13px;
+}
+
+article.content-item .thumb {
+    height: 180px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+article.content-item.type-instructor .thumb {
+  height: auto;
+}
+
+article.content-item.type-lecture .thumb {
+  height: 150px;
+}
+
+article.content-item.type-ihs .thumb {
+  margin-bottom: 0;
+  height: 160px;
+}
+
+article.content-item.type-ihs .thumb img {
+    object-fit: contain;
+}
+
+
+article.content-item .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    display: block;
+    border-radius: 10px;
+}
+
+article.content-item .duration-badge {
+    position: absolute;
+    z-index: 2;
+    bottom: 3px;
+    right: 5px;
+    background: #000;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: .85rem;
+}
+
+article.content-item .gated-badge {
+    position: absolute;
+    z-index: 2;
+    top: 3px;
+    left: 5px;
+    background: #000;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: .85rem;
+}
+
+article.content-item .gated-badge svg {
+  width: 18px;
+}
+
+article.content-item .meta,
+article.content-item .meta a {
+  color: #91c9f9;
+  text-decoration: none;
+  font-size: .9rem;
+  margin-bottom:5px;
+/*  font-style: italic;*/
+}
+
+article.content-item .post-title {
+  margin-bottom: 5px;
+}
+
+article.content-item .post-title a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    display: block;
+}
+
+article.content-item .description {
+  font-size: .8em;
+}
+
+
+
+.instructor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.instructor-card {
+  width: 300px;
+  text-align: center;
+}
+
+.instructor-card .headshot {
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 13px;
+}
+
+.instructor-card .headshot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;  
+}
+
+.instructor-card .role {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.instructor-card .name {
+  font-size: 1.6em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.instructor-card .actions a {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.single-instructor .header-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.single-instructor .header-content .headshot {
+  margin-right: 2.5em;
+}
+
+.single-instructor .header-content .headshot img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+
+.hernia-accordion .accordion-item {
+    background: var(--light-blue);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.hernia-accordion .accordion-header {
+    margin-top: 0;
+}
+
+.hernia-accordion .accordion-button {
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem 1rem 2rem;
+    background: var(--tertiary);
+    border-radius: 7px !important;
+}
+
+.hernia-accordion .accordion-button::before {
+    content: "+";
+    background-image: none;
+    position: relative;
+    left: -12px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: inherit;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 300;
+}
+.hernia-accordion .accordion-button:not(.collapsed)::before {
+    transform: none;
+    content: "-";
+    background-image: none;
+}
+
+.hernia-accordion .accordion-button:not(.collapsed) {
+    color: #fff;
+}
+
+.hernia-accordion .accordion-body {
+    font-size: .95rem;
+    padding: .4rem 1.25rem 1rem 1.25rem;
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.swiper-wrapper article {
+    width: 200px;
+}
+
+.swiper-wrapper article:nth-child(n+6) {
+    display: none;
+}
+
+.alert {
+    background-color: #818181;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.alert img {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.alert.fit-content {
+  width: fit-content;
+}
+
+
+
+
+
+
